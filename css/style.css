@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+}.container{
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color:#def0ff;
+}.head{
+    background-color: lightblue;
+    padding: 10px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+}
+.content{
+    float: right;
+   
+  
+}.body{
+    height: 250px;
+    width: 100%;
+    overflow-y: scroll;
+
+}a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #112542;
+    border-radius: 10px;
+}li{
+    list-style: none;
+}ul{
+    margin:10px 0;
+    padding:10px 10px;
+}.footer{
+    position: relative;
+    background-color:#ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}.footer textarea{
+  
+    display: inline-block;
+    margin-top: 2px;
+}.head input[type="submit"]{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: #112542;
+    border-radius: 10px;
+}
+.footer input[type="submit"]{
+    margin-left:10px ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background-color: #112542;
+    border-radius: 10px;
+}span.mUsername{
+    color: red;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+span.mMessage{
+    margin-left: 3px;
+}span.mTime{
+    margin-left: 3px;
+    color: #387ada;
+}.error{
+    color: red;
+    background-color: #112542;
+}
